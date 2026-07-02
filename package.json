@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite build && wrangler dev",
-    "deploy": "vite build && wrangler deploy"
+    "deploy": "vite build && wrangler deploy --env=\"\"",
+    "deploy:production": "vite build && wrangler deploy --env production"
   },
   "dependencies": {
     "react": "^19.2.7",

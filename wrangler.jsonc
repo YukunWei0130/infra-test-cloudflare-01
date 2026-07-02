@@ -14,5 +14,16 @@
 			"pattern": "genimex-ui-dev.ryder-watermelon.cn",
 			"custom_domain": true
 		}
-	]
+	],
+	"env": {
+		"production": {
+			"name": "infra-test-cloudflare-01-production",
+			"routes": [
+				{
+					"pattern": "genimex-ui-prod.ryder-watermelon.cn",
+					"custom_domain": true
+				}
+			]
+		}
+	}
 }
