@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite build && wrangler dev",
-    "deploy": "vite build && wrangler deploy --env=\"\"",
+    "deploy:dev": "vite build && wrangler deploy --env dev",
     "deploy:production": "vite build && wrangler deploy --env production"
   },
   "dependencies": {
