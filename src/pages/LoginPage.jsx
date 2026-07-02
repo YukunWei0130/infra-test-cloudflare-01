@@ -29,7 +29,7 @@ export function LoginPage() {
 
   return (
     <div className="auth-card">
-      <h1>Welcome back</h1>
+      <h1>Welcome back New</h1>
       <p className="muted">Log in to see and share posts.</p>
       {location.state?.registered && (
         <p className="notice">Account created — log in to continue.</p>
